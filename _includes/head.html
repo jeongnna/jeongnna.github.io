@@ -8,4 +8,8 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <!-- mathjax 사용을 위해 mathjax_support 포함시키기 -->
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
 </head>

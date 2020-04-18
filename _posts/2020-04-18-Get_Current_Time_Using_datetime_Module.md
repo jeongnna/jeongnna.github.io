@@ -27,3 +27,7 @@ now = datetime.now(tz_Seoul)
 now.strftime('%Y-%m-%d %H:%M:%S')
 ```
 > '2020-04-18 17:46:31'
+
+### References
+
+- [Python Get Current time](https://www.programiz.com/python-programming/datetime/current-time)

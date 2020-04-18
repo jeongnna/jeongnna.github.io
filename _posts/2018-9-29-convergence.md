@@ -2,6 +2,7 @@
 layout: post
 title: "확률변수열의 수렴 - p수렴과 as수렴"
 date: 2018-9-29
+use_math: true
 ---
 수열의 수렴과 같이 확률변수열에 대해서도 수렴성을 이야기할 수 있다. 일반적인 수열의 수렴과 달리, 확률변수열의 수렴은 여러 가지 종류로 나뉜다. 여기에서는 **p수렴**(convergence in probability)과 **as수렴**(almost sure convergence)의 차이를 이해하는 데 중점을 둘 것이다.
 

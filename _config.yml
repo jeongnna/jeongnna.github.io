@@ -3,6 +3,8 @@ author: Jeongmin Kim
 email: lulumin13@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
 
+markdown: kramdown
+
 # social links
 # twitter_username: jekyllrb
 github_username: jeongnna

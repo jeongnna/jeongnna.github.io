@@ -3,7 +3,7 @@ layout: post
 title: "Dropout random seed"
 date: 2019-6-31
 ---
-## assignment2에서 dropout 적용할 때 random seed 변경
+### assignment2에서 dropout 적용할 때 random seed 변경
 
 `layers.py`에서 `dropout_forward` 함수를 들여다보면 인풋으로 `x`(array), `dropout_param`(dictionary)을 받습니다. `dropout_param`에는 `seed`가 들어있는데 이 `seed` 값으로 난수생성 시드를 초기화하고, 그 이후에 `np.random.rand`를 이용해서 `dropout_mask`를 랜덤하게 생성하게 됩니다.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Get Current Time Using datetime Module"
+title: "[Python] 현재 날짜와 시간 가져오기"
 date: 2020-04-18
 tags:
     - python
@@ -15,7 +15,7 @@ now.strftime('%Y-%m-%d %H:%M:%S') # Return type: str
 ```
 > '2020-04-18 17:28:30'
 
-### Current time of a timezone
+### Timezone 설정해서 가져오기
 
 ```python
 from datetime import datetime

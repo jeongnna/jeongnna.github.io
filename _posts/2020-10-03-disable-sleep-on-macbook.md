@@ -16,11 +16,13 @@ sudo pmset -c disablesleep 1
 sudo pmset -c disablesleep 0
 ```
 
+
 ### 잠자기 단축키
 
 디스플레이 잠자기: `Shift` + `Ctrl` + `Eject`
 
 맥북 잠자기: `ALT` + `CMD` + `Eject`
+
 
 ### References
 
